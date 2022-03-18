@@ -17,7 +17,6 @@ function App() {
             <Route path="/"  element={<HomeScreen/>} exact></Route>
           </Routes>
           </main>
-          <footer className="row center">All right reserved</footer>
       </div>
     </BrowserRouter>
   );
