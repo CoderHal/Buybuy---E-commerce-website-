@@ -1,25 +1,14 @@
 body{
   margin:0;
-  height:100vh;
-  font-size: 1.6rem;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header{
-  grid-area:header;
-  background-color: #203040;
-  padding:1rem;
-}
-/*Header*/
-header a{
-  color: #ffffff;
-  padding: 1rem;/*内容与其边框的空间*/
-  font-weight:bold;
-  text-decoration:none;
+.site-container{
+  min-height: 100vh;
 }
 main{
-  padding:1rem;
+  flex: 1;
 }
 /*Products*/
 .products{
