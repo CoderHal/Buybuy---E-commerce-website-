@@ -22,7 +22,7 @@ export default function SigninScreen(){
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="email">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type = "email" required/>
+                    <Form.Control type = "password" required/>
                 </Form.Group>
                 <div className="mb-3">
                     <Button type = "submit">Sign In</Button>
